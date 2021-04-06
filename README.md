@@ -12,11 +12,12 @@ Features:
 * Enables File and Printer sharing on Windows Firewall 
 * Start Remote Registry Service 
 * Start WMI Service
-* 
+
 
 Useage:
 -----------
 Make sure you can run powershell scripts - you may need to enable Execution Policy
 
 ./nessus-helper enable      # open things up to allow you to scan via port 445
+
 ./nessus-helper disable     # when you are done and want to revert changed
